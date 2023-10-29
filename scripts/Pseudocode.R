@@ -1,6 +1,8 @@
 #pseudocodigo para tratamiento de secuencias ONT
 #descomprimir los archivos de la carpeta barcode79/
+gunzip *.gz
 #concatenar todo en un solo archivo de texto .fastq
+cat *.fastq > B79.fastq
 #remover los primers universales de nanopore de las secuencias
 #remover los primers que utilice para hacer PCR del gen 12S de mis secuencias
 #generar una secuencia consenso de todas las lecturas
