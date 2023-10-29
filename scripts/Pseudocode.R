@@ -1,3 +1,15 @@
+#pseudocodigo para tratamiento de secuencias ONT
+#descomprimir los archivos de la carpeta barcode79/
+#concatenar todo en un solo archivo de texto .fastq
+#remover los primers universales de nanopore de las secuencias
+#remover los primers que utilice para hacer PCR del gen 12S de mis secuencias
+#generar una secuencia consenso de todas las lecturas
+#buscar a que organismo pertenece esa secuencia
+
+
+
+
+
 #El comando le va a ordenar lo siguiente: escribe un codigo q imprima un numero y su cuadrado a lo largo de un rango de valores
 #Tambièn que imprima la suma de todos los cuadrados de dicho rango
 #Define el valor mìnimo y el màximo
@@ -15,12 +27,3 @@ for (ii in lower:upper)
 }
 
 cat("La suma de esto es", squaresum)
-# Una vez terminado el loop imprime la variables squaresum
-
-#cargar el docker y llamar a giderk2020/junglegenomics
-#Llamar al paquete conda
-#tomar 1000 reads al azar
-# if este formato else este formato y hacer un proceso de demultiplexing
-#sacar una secuencia consenso
-#llamar los paquetes 
-
